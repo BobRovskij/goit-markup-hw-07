@@ -1,3 +1,5 @@
+/*ОСОБЕННОСТИ*/
+
 .skills {
     margin-top: 94px;
     margin-bottom: 94px;
@@ -14,9 +16,9 @@
     display: block;
     content: '';
     height: 120px;
-    background-image: url(./images/antenna.svg);
+    background-image: url(/images/antenna.svg);
     background-repeat: no-repeat;
-    background-color: #F5F4FA;
+    background-color: $bgTeam;
     border-radius: 4px;
     background-position: center;
     margin-bottom: 30px;
@@ -25,9 +27,9 @@
     display: block;
     content: '';
     height: 120px;
-    background-image: url(./images/clock.svg);
+    background-image: url(/images/clock.svg);
     background-repeat: no-repeat;
-    background-color: #F5F4FA;
+    background-color: $bgTeam;
     border-radius: 4px;
     background-position: center;
     margin-bottom: 30px;
@@ -36,9 +38,9 @@
     display: block;
     content: '';
     height: 120px;
-    background-image: url(./images/diagram.svg);
+    background-image: url(/images/diagram.svg);
     background-repeat: no-repeat;
-    background-color: #F5F4FA;
+    background-color: $bgTeam;
     border-radius: 4px;
     background-position: center;
     margin-bottom: 30px;
@@ -47,9 +49,9 @@
     display: block;
     content: '';
     height: 120px;
-    background-image: url(./images/astronaut.svg);
+    background-image: url(/images/astronaut.svg);
     background-repeat: no-repeat;
-    background-color: #F5F4FA;
+    background-color: $bgTeam;
     border-radius: 4px;
     background-position: center;
     margin-bottom: 30px;
@@ -65,7 +67,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: #212121;
+    color: $blackText;
 }
 .skills li:not(:last-child) {
     margin-right: 30px;
@@ -83,5 +85,5 @@
 
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: $greyText;
 }
