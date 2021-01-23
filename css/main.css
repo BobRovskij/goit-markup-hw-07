@@ -443,8 +443,8 @@ header {
 
 .banner {
   background-color: #2F303A;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url(/images/bcgr_hero.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/images/bcgr_hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url(./images/bcgr_hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./images/bcgr_hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
