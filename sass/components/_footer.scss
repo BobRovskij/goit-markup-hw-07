@@ -22,11 +22,11 @@ footer {
 }
 .footer__contacts li {
     width: 231px;
-    height: 21px;
+    // height: 21px;
     
     text-decoration: none;
 }
-.contacts li:not(:last-child){
+.footer__contacts li:not(:last-child){
     margin-bottom: 9px;
 }
 .adress {
